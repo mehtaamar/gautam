@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+  <title>photography website</title>
+  <link rel="stylesheet" href="C:\Users\aadesh\OneDrive\Desktop\gautam.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+</head>
+<body>
+
+    <div class="container">
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src ="images/camera.jpg"></div> 
+      <div class="swiper-slide"><img src ="images/landscape.jpg"></div> 
+      <div class="swiper-slide"><img src ="images/girl.jpg"></div> 
+      <div class="swiper-slide"><img src ="images/view.jpg"></div> 
+      
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+</div>
+
+<header>
+  <h1>photography website</h1>
+  <p>pics .</p>
+</header>
+<br>
+<nav id="topnav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="link.html">Locations</a></li>
+    <li><a href="#">Event</a></li>
+  </ul>
+</nav>
+
+<div id="content">
+  <h1> IMAGES</h1>
+  <p>my work.</p>
+  <br>
+   <img src="images/sidhu.jpg" alt="sidhu" />
+  <h2>PIC 1</h2>
+  <p>The legend </p>
+  
+  <br>
+  <div id="pic1"><img src="images/pulsar.jpg" /></div>
+    <h2>PIC 2</h2>
+<p>The bike </p>
+  <div id="pic2"><img src="images/ap.jpg" alt="Sam" /></div>
+     <h2>PIC 3</h2>
+<p>The artist </p>
+  <div id="pic2"><img src="images/car.jpg" alt="Sam" /></div>
+     <h2>PIC 4</h2>
+<p>The car </p>
+  <br>
+  <p>These photography is by nature a document art the camera is an instrument that teaches people how to see without camera.your photos is a record of your living for anyone who really sees.</p>
+</div>
+<br>
+<footer>
+<nav class="footernav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="#">Locations</a></li>
+    <li><a href="#">Event</a></li>
+  </ul>
+</nav>
+  <p>&copy; - Copyright 2023</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+const swiper = new Swiper('.swiper', {
+  
+  autoplay:{
+    delay:3000,
+    disableoninteraction: false,
+
+  },
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+
+</script>
+
+
+</body>
+</html>
